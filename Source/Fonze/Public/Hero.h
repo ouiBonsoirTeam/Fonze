@@ -2,13 +2,14 @@
 
 #pragma once
 
-#include "GameFramework/Character.h"
+#include "FonzeCharacter.h"
 #include "Hero.generated.h"
 
 UCLASS()
-class FONZE_API AHero : public ACharacter
+class FONZE_API AHero : public AFonzeCharacter
 {
 	GENERATED_BODY()
+		FName m_name;
 
 public:
 	// Sets default values for this character's properties

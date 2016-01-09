@@ -2,17 +2,19 @@
 
 #pragma once
 
-#include "FonzeCharacter.h"
-#include "Zombie.generated.h"
+#include "GameFramework/Character.h"
+#include "FonzeCharacter.generated.h"
 
 UCLASS()
-class FONZE_API AZombie : public AFonzeCharacter
+class FONZE_API AFonzeCharacter : public ACharacter
 {
 	GENERATED_BODY()
+		uint8 m_healthPoint;
+		uint8 m_speed;
 
 public:
 	// Sets default values for this character's properties
-	AZombie();
+	AFonzeCharacter();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
