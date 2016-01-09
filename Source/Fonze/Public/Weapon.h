@@ -9,7 +9,11 @@ UCLASS()
 class FONZE_API AWeapon : public AActor
 {
 	GENERATED_BODY()
-	
+
+	FName m_name;
+	uint8 m_damages;
+	float m_coolDown;
+
 public:	
 	// Sets default values for this actor's properties
 	AWeapon();

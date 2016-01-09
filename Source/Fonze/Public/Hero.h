@@ -9,7 +9,8 @@ UCLASS()
 class FONZE_API AHero : public AFonzeCharacter
 {
 	GENERATED_BODY()
-		FName m_name;
+
+	FName m_name;
 
 public:
 	// Sets default values for this character's properties

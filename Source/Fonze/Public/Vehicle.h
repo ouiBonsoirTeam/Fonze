@@ -10,6 +10,9 @@ class FONZE_API AVehicle : public APawn
 {
 	GENERATED_BODY()
 
+	uint8 m_healthPoint;
+	uint8 m_speed;
+
 public:
 	// Sets default values for this pawn's properties
 	AVehicle();

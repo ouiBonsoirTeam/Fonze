@@ -9,8 +9,9 @@ UCLASS()
 class FONZE_API AFonzeCharacter : public ACharacter
 {
 	GENERATED_BODY()
-		uint8 m_healthPoint;
-		uint8 m_speed;
+
+	uint8 m_healthPoint;
+	uint8 m_speed;
 
 public:
 	// Sets default values for this character's properties
