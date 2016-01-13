@@ -9,6 +9,8 @@ UCLASS()
 class FONZE_API AProjectile : public AActor
 {
 	GENERATED_BODY()
+
+	uint8 m_damage;
 	
 public:	
 	// Sets default values for this actor's properties
